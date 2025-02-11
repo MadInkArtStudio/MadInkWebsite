@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #121212;
+    color: #e0d6c7;
+    margin: 0;
+    padding: 0;
+    background-image: url('damask-pattern.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    background-color: #1a1410;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 6px solid #b29768;
+    border-image: url('ornate-border.png') 30 stretch;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e0d6c7;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+    font-family: 'Great Vibes', cursive;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #2b1e17;
+    border-bottom: 4px solid #b29768;
+    border-image: url('ornate-border.png') 30 stretch;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+nav a {
+    color: #e0d6c7;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+    transition: color 0.3s, text-shadow 0.3s;
+    font-family: 'Playfair Display', serif;
+}
+
+nav a:hover {
+    color: #d4af7a;
+    text-shadow: 0px 0px 10px rgba(212, 175, 122, 0.8);
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #1a1410, #2b1e17);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+    border: 6px solid #b29768;
+    border-image: url('ornate-border.png') 30 stretch;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(180deg, #b29768, #8b6f4e);
+    color: #1e1b18;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.4s, transform 0.2s;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'Cinzel', serif;
+}
+
+button:hover {
+    background: linear-gradient(180deg, #d4af7a, #b29768);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1410;
+    border-top: 6px solid #b29768;
+    border-image: url('ornate-border.png') 30 stretch;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Hover Effects for Sections */
+section:hover {
+    border: 3px solid #d4af7a;
+    transition: border 0.4s ease-in-out;
+}
