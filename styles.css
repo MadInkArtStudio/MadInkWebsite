@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #e0c097;
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    background-color: #0d0d0d;
+    color: #e0c097;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #b89255;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    color: #e0c097;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+    color: #b89255;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image: url('images/hero-bg.jpg'); /* Add a gothic background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #e0c097;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+/* ABOUT US SECTION */
+.about {
+    background-color: #252525;
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 2px solid #b89255;
+    border-bottom: 2px solid #b89255;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    color: #b89255;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #d4af37;
+}
+
+/* SERVICES SECTION */
+.services {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    color: #b89255;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    color: #e0c097;
+}
+
+.service p {
+    font-size: 1.1rem;
+    color: #d4af37;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+    background-color: #252525;
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 2px solid #b89255;
+    border-bottom: 2px solid #b89255;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    color: #b89255;
+    font-family: 'Cinzel', serif;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #b89255;
+}
+
+/* CONTACT SECTION */
+.contact {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    text-align: center;
+    color: #e0c097;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #b89255;
+}
+
+.contact a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #b89255;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0d0d0d;
+    color: #e0c097;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #b89255;
+}
+
+
+
+
